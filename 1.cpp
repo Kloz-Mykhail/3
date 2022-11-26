@@ -13,8 +13,7 @@ void checkValidInput()
 
 void checkValidParam(int n)
 {
-    if (n < 1)
-        throw "Incorrect param";
+    throw "Incorrect param";
 }
 double calculate(double x, int n)
 {
